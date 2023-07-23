@@ -71,7 +71,7 @@ main{
 /* MAIN */
 main aside{
    
-    height: 100vh;
+    height: 88vh;
     background-color: var(--color-theme);
     width: 100%;
     border-right: 0.1px solid var(--color-light-grey);
@@ -187,7 +187,7 @@ main-block1{
 
 }
 .main-block2{
-    background-color: burlywood;
+    background-color:var(--color-white);
 }
 .main-block1-content{
     background-color: var(--color-theme);
@@ -197,7 +197,7 @@ main-block1{
 .grid-system{
     display: grid;
     grid-template-columns: 50% auto;
-    height: 80vh;
+    height: 72vh;
 
     overflow-y: scroll;
 }
@@ -258,6 +258,7 @@ width: 100%;
     justify-content: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    
    
 }
 .student-information-content-profile .student-img img{
