@@ -119,7 +119,10 @@ main aside .above{
     background-color: rgb(165, 4, 4);
     color: var(--color-theme);
 }
-.box2,.box4{
+.box2{
+    border-left: 2px solid rgb(214, 214, 6);
+}
+.box4{
     border-left: 2px solid rgb(214, 214, 6);
 }
 .box2:hover{
@@ -155,7 +158,8 @@ main aside .above{
     grid-row-end: 3; */
    display: flex;
    flex-direction: row;
-    background-color: skyblue;
+    background-color: var(--color-white);
+    border-bottom: 2px solid black;
 }
 .main-nav nav ul li{
     margin: 1px 5px;
@@ -167,14 +171,14 @@ main aside .above{
     border-right: 1px solid var(--color-dark-grey);
 }
 .main-block1{
-    background-color: blueviolet;
+    background-color:var(--color-white);
 
 }
 .main-block2{
     background-color: burlywood;
 }
 .main-block1-content{
-    background-color: hotpink;
+    background-color: var(--color-light-grey);
     padding: 10px;
     margin: 15px 10px;
 }
@@ -199,6 +203,7 @@ main aside .above{
     width: 90%;
     margin: 5% 5%;
     border-top: 5px solid var(--color-black);
+   
 }
 .student-information-header{
     height: 7vh;
@@ -207,12 +212,73 @@ main aside .above{
     background-color: var(--color-theme);
     color: var(--color-dark-grey);
     
+    
     justify-content: center;
     padding-top: 10px;
     padding-left: 10px;
     border-bottom: 20px solid rgba(255, 255, 0, 0.683);
 }
- 
+.student-information-content{
+    display: grid;
+    position: relative;
+    overflow-y: scroll;
+    grid-template-columns: 48% auto;
+   
+    background-color: hotpink;
+height: 83%;
+width: 100%;
+}
+
+.student-information-content-profile .student-img{
+    background-color: aqua;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.student-information-content-profile .student-img img{
+    height: 80px;
+    width: 80px;
+    
+    padding: 2px 5px;
+    border-radius: 50%;
+    /* text-align: center;
+    justify-content: center; */
+  
+}
+.sicbox{
+    background-color: #dfd9d9;
+   margin: 5% 10%;
+   border-radius: 10px;
+}
+.student-information-content-info{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: auto auto;
+}
+.data{
+    margin: 5px 10px;
+}
+.entries{
+    margin: 5px 10px;
+}
+.data ul li{
+    margin-bottom: 10px;
+}
+.entries ul li{
+    margin-bottom: 10px;
+}
+
+/* .student-img{
+    height:12vh;
+}
+.student-img img{
+    height: 90%;
+    margin: 50%;
+} */
 /* .box i{
     margin-left: 10px;
 } */
