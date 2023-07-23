@@ -106,6 +106,39 @@ main aside .above{
     justify-content: left;  padding-left: 10px;
 }
 
+.box1{
+    border-left: 2px solid red;
+}
+.box1:hover{
+    background-color: red;
+    color: var(--color-theme);
+}
+.box2,.box4{
+    border-left: 2px solid yellow;
+}
+.box2:hover{
+    background-color: yellow;
+    color: var(--color-theme);
+}
+.box3,.box5,.box6{
+    border-left: 2px solid rgb(27, 38, 49);
+}
+.box3:hover{
+    background-color: rgb(27, 38, 49);
+    color: var(--color-theme);
+}
+.box4:hover{
+    background-color: yellow;
+    color: var(--color-theme);
+}
+.box5:hover{
+    background-color: rgb(27, 38, 49);
+    color: var(--color-theme);
+}
+.box6:hover{
+    background-color: rgb(27, 38, 49);
+    color: var(--color-theme);
+}
 /* .box i{
     margin-left: 10px;
 } */
