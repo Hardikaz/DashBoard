@@ -360,5 +360,22 @@ font-size: 12px;
     
 } */
 
+.Calendar{
+    border-bottom: 0px;
+    height: 5vh;
+}
 
+.datePanel {
+    /* background-color: aqua; */
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+.datePanel i{
+margin-left: 20px;
+text-align: center;
+margin-right: 10px;
+}
 
