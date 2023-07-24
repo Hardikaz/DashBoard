@@ -4,7 +4,7 @@
     --color-light-grey: #757474;
     --color-dark-grey: #2f2f2f;
     --color-black: #111111;
-  --color-theme: #c9c6c6;
+  --color-theme: #f2efefec;
 }
 *{
     padding: 0;
@@ -12,6 +12,7 @@
     box-sizing: border-box;
     list-style: none;
     overflow: none;
+    opacity: 98%;
 }
 
 header{
