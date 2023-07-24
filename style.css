@@ -310,7 +310,55 @@ width: 100%;
     align-items: right;
     justify-content: center; 
 }
+
+.NotiDashHead{
+    height: 5vh;
+    border-bottom: 0px;
+}
+.NotificationDashletNav{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   border-bottom: 1px solid var(--color-light-grey);
+
+}
+.head1,.head2,.head3{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     
+}
+.NotiDashContainer{
+   
+    height: 72%;
+    width: 100%;
+    overflow-y: scroll;
+    margin-top: 0px;
+}
+.NotiDashContent{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+   
+   border-bottom: 1px solid var(--color-light-grey);
+font-size: 12px;
+}
+.mid{
+    color: rgb(0, 115, 255);
+    margin-left: 20px;
+    text-align: left;
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    text-align: right;
+}
+/* .NotiDashCont{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    
+} */
 
 
 
