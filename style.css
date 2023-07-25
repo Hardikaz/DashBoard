@@ -112,13 +112,14 @@ main aside .above{
 
 .box{
     /* background-color: #ffcece; */
-    color: var(--color-dark-grey);
+    color: black;
     height: 50px;
     /* border:2px solid white; */
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: left;  padding-left: 10px;
+    
 }
 
 .box1{
@@ -146,7 +147,7 @@ main aside .above{
     color: var(--color-theme);
 }
 .box4:hover{
-    background-color: yellow;
+    background-color: rgb(214, 214, 6);
     color: var(--color-theme);
 }
 .box5:hover{
@@ -199,7 +200,7 @@ main-block1{
     display: grid;
     grid-template-columns: 50% auto;
     height: 72vh;
-
+    
     overflow-y: scroll;
 }
 .btn1{
@@ -260,6 +261,7 @@ width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
+    
    
 }
 .student-information-content-profile .student-img img{
@@ -276,6 +278,7 @@ width: 100%;
     background-color: #dfd9d9;
    margin: 5% 10%;
    border-radius: 10px;
+   
 }
 .student-information-content-info{
     display: grid;
@@ -453,4 +456,5 @@ table tr td{
 
 .vals ul li{
     margin-bottom: 10px;
+    padding-left: 20px;
 }
