@@ -406,3 +406,23 @@ table tr td{
     width: 10%; background-color: rgba(186, 229, 254, 0.84);
     font-size: 10px;
 }
+.PIhead{
+    height: 7vh;
+}
+.Pname{
+    margin: 0;
+    height: 5vh;
+    background-color: rgba(255, 255, 0, 0.683);
+    margin-bottom: 10px; 
+}
+.Pname span{
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;  
+   padding-right: 10%;
+    margin-top: 0;
+    background-color: var(--color-white);
+    outline: rgb(0, 145, 255) solid 2px;
+    width: 50%;
+}
