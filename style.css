@@ -426,3 +426,22 @@ table tr td{
     outline: rgb(0, 145, 255) solid 2px;
     width: 50%;
 }
+.InformationInfoContent{
+    height: 65%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.Info-img{
+    background-color: azure;
+
+}
+.img{
+    color: red;
+   margin-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 100px;
+    
+}
