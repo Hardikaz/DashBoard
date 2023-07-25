@@ -428,20 +428,29 @@ table tr td{
 }
 .InformationInfoContent{
     height: 65%;
-    background-color: aqua;
+    background-color:var(--color-white);
     display: grid;
     grid-template-columns: 30% 30% 30%;
 }
 .Info-img{
-    background-color: azure;
+    background-color:var(--color-white);
 
 }
 .img{
-    color: red;
+    color:var(--color-dark-grey);
    margin-top: 50px;
     display:flex;
     align-items: center;
     justify-content: center;
    font-size: 100px;
     
+}
+
+.fields ul li{
+    
+    margin-bottom: 10px;
+}
+
+.vals ul li{
+    margin-bottom: 10px;
 }
