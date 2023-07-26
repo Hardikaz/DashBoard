@@ -345,6 +345,36 @@ margin-left: 10%;
     background-color: rgb(27, 38, 49);
     color: var(--color-theme);
 }
+.box6-display{
+   
+    overflow:hidden ;
+    height: 14vh;
+    width: 40vh;
+    background-color: var(--color-white);
+    position: absolute;
+    z-index: 10;
+    left: 15.5%;
+    top: 56%;
+    opacity: 100%;
+    border-left: 5px solid rgb(27, 38, 49);
+    box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
+    display: flex;
+    flex-direction: row;
+    display: none;
+     color: var(--color-light-grey);
+}
+.Academia-Drive{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.Academia-Drive ul li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Academia-Drive ul li:hover{
+    color: var(--color-black);
+    font-weight: 500;
+}
 .main-block1{
     grid-column: 2/4;
 }

@@ -61,6 +61,18 @@ function displaybox5()
     document.querySelectorAll('.box5-display')[0].style.display="none";
 }
 
+//BOX-6 PopOut
+document.querySelectorAll('.box6')[0].addEventListener('click',displaybox6)
+
+function displaybox6()
+{
+    if(document.querySelectorAll('.box6-display')[0].style.display==="none"){
+   document.querySelectorAll('.box6-display')[0].style.display="flex";
+    }
+    else
+    document.querySelectorAll('.box6-display')[0].style.display="none";
+}
+
 
 // For Chart.js library
 const ctx = document.getElementById('myChart');
