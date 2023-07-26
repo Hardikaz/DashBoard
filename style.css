@@ -183,6 +183,42 @@ margin-bottom: 5%;
 .box2{
     border-left: 2px solid rgb(214, 214, 6);
 }
+.box2-display{
+   
+    overflow:hidden ;
+    height: 54vh;
+    width: 60vh;
+    background-color: var(--color-white);
+    position: absolute;
+    z-index: 10;
+    left: 15.5%;
+    top: 27%;
+    opacity: 100%;
+    border-left: 5px solid rgb(214, 214, 6);
+    box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+     color: var(--color-light-grey);
+}
+
+.My-Academics{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.My-Academics ul li{
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+.Examination{
+margin-top: 5%;
+margin-left: 10%;
+
+}
+.Examination ul li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 .box4{
     border-left: 2px solid rgb(214, 214, 6);
 }

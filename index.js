@@ -1,3 +1,4 @@
+// BOX-1 PopOut
 document.querySelectorAll('.box1')[0].addEventListener('click',displaybox1)
 
 function displaybox1()
@@ -10,6 +11,18 @@ function displaybox1()
 
 }
 
+//BOX-2 PopOut
+document.querySelectorAll('.box2')[0].addEventListener('click',displaybox2)
+
+function displaybox2()
+{
+    if(document.querySelectorAll('.box2-display')[0].style.display==="none"){
+   document.querySelectorAll('.box2-display')[0].style.display="flex";
+    }
+    else
+    document.querySelectorAll('.box2-display')[0].style.display="none";
+
+}
 
 // For Chart.js library
 const ctx = document.getElementById('myChart');
