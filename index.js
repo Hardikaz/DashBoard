@@ -1,4 +1,14 @@
+document.querySelectorAll('.box1')[0].addEventListener('click',displaybox1)
 
+function displaybox1()
+{
+    if(document.querySelectorAll('.box1-display')[0].style.display==="none"){
+   document.querySelectorAll('.box1-display')[0].style.display="flex";
+    }
+    else
+    document.querySelectorAll('.box1-display')[0].style.display="none";
+
+}
 
 
 // For Chart.js library
@@ -40,5 +50,6 @@ new Chart(ctx, {
   }
 });
 
-// onLoad
+
+
 

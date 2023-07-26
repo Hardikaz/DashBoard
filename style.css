@@ -12,7 +12,7 @@
     box-sizing: border-box;
     list-style: none;
     overflow: none;
-    opacity: 98%;
+    /* opacity: 98%; */
 }
 
 header{
@@ -124,6 +124,57 @@ main aside .above{
 
 .box1{
     border-left: 2px solid rgb(165, 4, 4);
+}
+.box1-display{
+   
+    overflow:hidden ;
+    height: 54vh;
+    width: 60vh;
+    background-color: var(--color-white);
+    position: absolute;
+    z-index: 10;
+    left: 15.5%;
+    top: 20%;
+    opacity: 100%;
+    border-left: 5px solid rgb(165, 4, 4);
+    box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: none;
+     color: var(--color-light-grey);
+}
+ .My-profile{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    
+    
+}
+.My-profile ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.My-profile ul li:hover{
+    color: var(--color-black);
+    font-weight: 300;
+}
+
+.Past-history{
+    margin-top: 4%;
+    margin-left: 20%;
+
+    
+}
+
+.Past-history ul li{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.Past-history ul li:hover{
+    color: var(--color-black);
+    font-weight: 300;
 }
 .box1:hover{
     background-color: rgb(165, 4, 4);
