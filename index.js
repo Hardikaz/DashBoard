@@ -24,6 +24,20 @@ function displaybox2()
 
 }
 
+//BOX-3 PopOut
+document.querySelectorAll('.box3')[0].addEventListener('click',displaybox3)
+
+function displaybox3()
+{
+    if(document.querySelectorAll('.box3-display')[0].style.display==="none"){
+   document.querySelectorAll('.box3-display')[0].style.display="flex";
+    }
+    else
+    document.querySelectorAll('.box3-display')[0].style.display="none";
+
+}
+
+
 // For Chart.js library
 const ctx = document.getElementById('myChart');
       
