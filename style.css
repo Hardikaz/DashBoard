@@ -4,7 +4,7 @@
     --color-light-grey: #757474;
     --color-dark-grey: #2f2f2f;
     --color-black: #111111;
-  --color-theme: #f2efefec;
+  --color-theme: #f3f7f9;
 }
 *{
     padding: 0;
@@ -471,7 +471,7 @@ width: 100%;
 }
 
 .student-information-content-profile .student-img{
-    background-color:var(--color-light-grey);
+    background-color:var(--color-theme);
     height: 13vh;
     display: flex;
     align-items: center;
@@ -493,7 +493,7 @@ width: 100%;
   
 }
 .sicbox{
-    background-color: #dfd9d9;
+    background-color: var(--color-theme);
    margin: 5% 10%;
    border-radius: 10px;
    
