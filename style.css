@@ -186,6 +186,7 @@ main aside .above{
 }
 main-block1{
     background-color:var(--color-white);
+    
 
 }
 .main-block2{
@@ -212,7 +213,7 @@ main-block1{
 }
 .btn2{
     color: var(--color-dark-grey);
-    background-color: var(--color-light-grey);
+    background-color: var(--color-theme);
     font: bold;
     font-weight: 600;
     padding:  2px 5px;
