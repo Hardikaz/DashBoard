@@ -37,6 +37,18 @@ function displaybox3()
 
 }
 
+//BOX-4 PopOut
+document.querySelectorAll('.box4')[0].addEventListener('click',displaybox4)
+
+function displaybox4()
+{
+    if(document.querySelectorAll('.box4-display')[0].style.display==="none"){
+   document.querySelectorAll('.box4-display')[0].style.display="flex";
+    }
+    else
+    document.querySelectorAll('.box4-display')[0].style.display="none";
+}
+
 
 // For Chart.js library
 const ctx = document.getElementById('myChart');

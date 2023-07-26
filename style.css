@@ -211,6 +211,10 @@ margin-bottom: 5%;
    margin-top: 5%;
    margin-bottom: 5%;
 }
+.My-Academics ul li:hover{
+   color: var(--color-black);
+   font-weight: 500;
+ }
 .Examination{
 margin-top: 5%;
 margin-left: 10%;
@@ -265,6 +269,37 @@ margin-left: 10%;
     margin-bottom: 5%;
 }
 .My-fees ul li:hover{
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.box4-display{
+   
+    overflow:hidden ;
+    height: 14vh;
+    width: 40vh;
+    background-color: var(--color-white);
+    position: absolute;
+    z-index: 10;
+    left: 15.5%;
+    top: 43%;
+    opacity: 100%;
+    border-left: 5px solid rgb(214, 214, 6);
+    box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
+    display: flex;
+    flex-direction: row;
+    display: none;
+     color: var(--color-light-grey);
+}
+.My-Requests{
+ margin-top: 5%;
+ margin-left: 5%;
+}
+.My-Requests ul li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.My-Requests ul li:hover{
     color: var(--color-black);
     font-weight: 500;
 }
