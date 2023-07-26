@@ -5,10 +5,14 @@ function displaybox1()
 {
     if(document.querySelectorAll('.box1-display')[0].style.display==="none"){
    document.querySelectorAll('.box1-display')[0].style.display="flex";
+  //  document.querySelectorAll('.box1')[0].style.backgroundColor="rgb(165, 4, 4)";
+  //  document.querySelectorAll('.box1')[0].style.color="white";
     }
-    else
+    else{
     document.querySelectorAll('.box1-display')[0].style.display="none";
-
+    // document.querySelectorAll('.box1')[0].style.backgroundColor="#f3f7f9";
+    // document.querySelectorAll('.box1')[0].style.color="black";
+    }
 }
 
 //BOX-2 PopOut
@@ -72,7 +76,22 @@ function displaybox6()
     else
     document.querySelectorAll('.box6-display')[0].style.display="none";
 }
+//For Menu Search Bar
 
+document.querySelectorAll('.MenuSearch')[0].addEventListener('click',active)
+
+function active()
+{
+  if( document.querySelectorAll('.MenuSearch')[0].style.boxShadow==="none")
+  {
+  document.querySelectorAll('.MenuSearch')[0].style.boxShadow="2px 2px blue";
+  }
+  else
+  {
+    document.querySelectorAll('.MenuSearch')[0].style.boxShadow="none";
+  }
+  //console.log(document.querySelectorAll('.MenuSearch')[0].style.boxShadow);
+}
 
 // For Chart.js library
 const ctx = document.getElementById('myChart');

@@ -676,3 +676,6 @@ table tr td{
     margin-bottom: 10px;
     padding-left: 20px;
 }
+.MenuSearch{
+    box-shadow: none;
+}
