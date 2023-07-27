@@ -436,19 +436,22 @@ main-block1{
     overflow-y: scroll;
 }
 .btn1{
-    background-color: blue;
+    background-color: rgb(0, 145, 255);
     color: var(--color-white);
     font: bold;
-    padding:  2px 5px;
+    padding:  5px 10px;
     border-radius: 5px;
+    outline: none;
+    border: none;
 }
 .btn2{
     color: var(--color-dark-grey);
-    background-color: var(--color-theme);
+    background-image: linear-gradient(var(--color-white),var(--color-light-grey));
     font: bold;
     font-weight: 600;
-    padding:  2px 5px;
+    padding:  5px 10px;
     border-radius: 5px;
+    border: 1px solid var(--color-light-grey);
 }
 
 .student-information{

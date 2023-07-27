@@ -13,7 +13,7 @@
 
 
 //PreLoader
-const time=setTimeout(loading,5000);
+
 function loading(){
 document.querySelectorAll('.loader')[0].style.display="none";
 }
