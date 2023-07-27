@@ -444,6 +444,10 @@ main-block1{
     outline: none;
     border: none;
 }
+.btn1:hover{
+    background-color: rgb(14, 78, 127);
+    color: var(--color-white);
+}
 .btn2{
     color: var(--color-dark-grey);
     background-image: linear-gradient(var(--color-white),var(--color-light-grey));
@@ -452,6 +456,10 @@ main-block1{
     padding:  5px 10px;
     border-radius: 5px;
     border: 1px solid var(--color-light-grey);
+}
+.btn2:hover{
+    color: var(--color-white);
+    background-image: linear-gradient(rgb(165, 4, 4),rgb(165, 4, 4));
 }
 
 .student-information{
