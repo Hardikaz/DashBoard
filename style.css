@@ -15,7 +15,13 @@
   
     /* opacity: 98%; */
 }
+.downHide{
+    color: var(--color-light-grey);
+}
+.student-information-heading span i:hover{
 
+    color: var(--color-dark-grey);
+}
 header{
     background-color: var(--color-black);
     color: var(--color-white);
@@ -466,7 +472,7 @@ main-block1{
     overflow-y: scroll;
     grid-template-columns: 50% auto;
    
-    background-color:var(--color-white);
+    background-color:var(--color-white);    
 height: 83%;
 width: 100%;
 }
