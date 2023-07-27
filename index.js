@@ -11,6 +11,13 @@
 //   alert("I am being clicked");
 // }
 
+
+//PreLoader
+const time=setTimeout(loading,5000);
+function loading(){
+document.querySelectorAll('.loader')[0].style.display="none";
+}
+//BOX-1 PopOut
 document.querySelectorAll('.box1')[0].addEventListener('click',displaybox1)
 
 function displaybox1()
