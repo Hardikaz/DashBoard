@@ -111,7 +111,7 @@ function active()
 {
   if( document.querySelectorAll('.MenuSearch')[0].style.boxShadow==="none")
   {
-  document.querySelectorAll('.MenuSearch')[0].style.boxShadow="2px 2px blue";
+  document.querySelectorAll('.MenuSearch')[0].style.boxShadow="1px 1px 2px 2px blue";
   }
   else
   {
