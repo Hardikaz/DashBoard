@@ -22,6 +22,7 @@
     background: white url('/Images/loading-icon.gif') no-repeat center;
     z-index: 10;
 }
+
 .downHide{
     color: var(--color-light-grey);
 }
@@ -176,10 +177,41 @@ main aside .above{
 
 .Past-history{
     margin-top: 4%;
-    margin-left: 20%;
+    margin-left: 20%;    
+}
 
+.dropdownbox{
+    overflow: hidden;
+    height: 30vh;
+    width: 20vw;
+    background-color: var(--color-white);
+    position: absolute;
+    right: 1.5%;
+    top: 11%;
+    border: 1px solid var(--color-light-grey);
+    display: none;
+    /* overflow-y: scroll; */
+}
+.dropdown-content{
+    width: 100%;
+}
+.tabs{
+    display: flex;
+    padding: 5%;
+    width: 100%;
+    padding-left: 15%;
     
 }
+.tabs p{
+    color: var(--color-dark-grey);
+    margin-left: 10px;
+    
+}
+
+.tabs:hover{
+    background-color: var(--color-theme);
+}
+
 
 .Past-history ul li{
 margin-top: 5%;

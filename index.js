@@ -127,6 +127,14 @@ function active()
   //console.log(document.querySelectorAll('.MenuSearch')[0].style.boxShadow);
 }
 
+//For profile-img dropdown in the title bar
+
+document.getElementById('profile-img-dd').addEventListener('click',dropdown);
+
+function dropdown(){
+ document.querySelectorAll('.dropdownbox')[0].classList.toggle('hide');
+}
+
 // For Chart.js library
 const ctx = document.getElementById('myChart');
       

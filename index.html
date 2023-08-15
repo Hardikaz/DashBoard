@@ -8,11 +8,13 @@
     <script src="https://kit.fontawesome.com/b7fddfb9e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="setTimeout(loading,3000)">
+<!-- onload="setTimeout(loading,3000)" -->
 
-    <div class="loader">
+<body >
+
+    <!-- <div class="loader">
         <h1 style="display: flex; justify-content: center;align-items: center;margin-top: 30%;">Welcome to Acadmia</h1>
-    </div>
+    </div> -->
     <header>
         <div class="header-img">
             <img src="/Images/DIT_Logo.jpg" alt="">
@@ -23,10 +25,38 @@
         <span class="header-middle"><i class="fa fa-user-graduate"></i>  Student</span>
 
         <span class="header-last">Hardik Sharma <i class="fa-regular fa-bell" style="margin-left: 5px;"><sup style="font-size: 10px; margin-left: 5px;background-color: red ; border-radius: 40%; padding: 5px;">38</sup></i></span>
-
-        <span><div class="header-profile-img"><img src="/Images/darkProgrammer.jpg" alt=""></div></span>
+        
+        <span>
+            <div style="display: flex; justify-content: center; align-items: center;" class="header-profile-img" >
+            <img src="/Images/darkProgrammer.jpg" alt="">
+            <i id="profile-img-dd" style="margin-left: 5px;" class="fa-solid fa-angle-down"></i>
+        </div>
+    </span>
+        
     </header>
+    <div class="dropdownbox" id="dropdown">
+        <div class="dropdown-content">
+            <div class="tabs">
+                <i class="fa-solid fa-tv"></i>
+                <p>My Dashboard</p>
+            </div>
+            <div class="tabs">
+                <i class="fa-solid fa-lock"></i>
+                <p>Change Password</p> 
+            </div>
+            <div class="tabs">
+                <i class="fa-solid fa-a"></i>
+                <p>Change Language</p> 
+            </div>
+            <hr>
+            <div class="tabs">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <p>Sign Out</p> 
+            </div>
+        </div>
+    </div>
 
+    
     <main>
     <aside>
         <div class="above">
