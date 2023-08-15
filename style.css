@@ -228,7 +228,7 @@ margin-bottom: 5%;
 }
 /* BOX-2 started */
 .box2{
-    border-left: 2px solid rgb(214, 214, 6);
+    border-left: 2px solid goldenrod;
 }
 .box2-display{
    
@@ -241,7 +241,7 @@ margin-bottom: 5%;
     left: 15.5%;
     top: 27%;
     opacity: 100%;
-    border-left: 5px solid rgb(214, 214, 6);
+    border-left: 5px solid goldenrod;
     box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
     display: grid;
     grid-template-columns: 50% 50%;
@@ -275,10 +275,10 @@ margin-left: 10%;
     font-weight: 500;
 }
 .box4{
-    border-left: 2px solid rgb(214, 214, 6);
+    border-left: 2px solid goldenrod;
 }
 .box2:hover{
-    background-color: rgb(214, 214, 6);
+    background-color: goldenrod;
     color: var(--color-theme);
 }
 .box3,.box5,.box6{
@@ -330,7 +330,7 @@ margin-left: 10%;
     left: 15.5%;
     top: 42%;
     opacity: 100%;
-    border-left: 5px solid rgb(214, 214, 6);
+    border-left: 5px solid goldenrod;
     box-shadow: 1px 0px 1px 1px var(--color-dark-grey);
     display: flex;
     flex-direction: row;
@@ -350,7 +350,7 @@ margin-left: 10%;
     font-weight: 500;
 }
 .box4:hover{
-    background-color: rgb(214, 214, 6);
+    background-color: goldenrod;
     color: var(--color-theme);
 }
 .box5-display{
@@ -548,6 +548,19 @@ width: 100%;
     text-align: center;
     justify-content: center;
   
+}
+
+.AcademiaDrive{
+    height: 5vh;
+    border-bottom: 0px;
+   
+}
+.AD{
+    border-top: 5px solid goldenrod;
+}
+
+.PGI{
+    border-top: 5px solid rgb(165, 4, 4);
 }
 .sicbox{
     background-color: var(--color-theme);
