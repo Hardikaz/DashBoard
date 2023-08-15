@@ -135,11 +135,39 @@ function dropdown(){
  document.querySelectorAll('.dropdownbox')[0].classList.toggle('hide');
 }
 
+document.getElementById('left-button').addEventListener('click',moveItemsLeft);
+
+function moveItemsLeft()
+{
+  // var test=document.getElementById('aside').getElementsByTagName('span')[0].style.display="none";
+  // console.log(test);
+
+  
+  // var aside=document.getElementById('aside').getElementsByTagName('span');
+  
+  //console.log(aside.length);
+  //  for(let i=0;i<aside.length;i++)
+  //  {
+  //   aside[i].style.display="none";
+  //  }
+   
+  //  var asidePane=document.getElementById('aside').style.width="30%";
+  // var asidePaneAbove=document.getElementsByClassName('MenuSearch')[0].style.display="none";
+  //  console.log(asidePaneAbove);
+  
+  var spans=document.getElementsByClassName('belowSpan');
+  for(let i=0;i<spans.length;i++){
+    spans[i].classList.toggle('none');
+  }
+  var test=document.getElementsByClassName('asideBhai')[0].classList.toggle('reduce30');
+  document.getElementsByClassName('MenuSearch')[0].classList.toggle('none');
+  console.log(test);
+}
 // For Chart.js library
 const ctx = document.getElementById('myChart');
       
 new Chart(ctx, {
-  type: 'line',
+  type: 'bar',
   
   data: {
     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul','Aug','Sep','Oct','Nov','Dec'],

@@ -88,16 +88,17 @@ main{
 main aside{
    
     height: 88vh;
-    background-color: var(--color-theme);
+    /* background-color: var(--color-theme); */
     width: 100%;
     border-right: 0.1px solid var(--color-light-grey);
-    
+   
     
 
 }
 main aside .above{
     background-color:var(--color-theme);
     height: 8vh;
+    width: 100%s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,6 +124,7 @@ main aside .above{
     border: none;
     margin-left: 3%;
     outline: none;
+    width: 80%;
 }
 
 .box{
@@ -135,6 +137,12 @@ main aside .above{
     align-items: center;
     justify-content: left;  padding-left: 10px;
     
+}
+.none{
+    display: none;
+}
+.reduce30{
+    width: 30%;
 }
 
 .box1{
@@ -409,6 +417,14 @@ margin-left: 10%;
     display: none;
      color: var(--color-light-grey);
 }
+#left-button{
+    padding: 5px;
+}
+#left-button:hover{
+background-color: var(--color-light-grey);
+border-radius: 50%;
+
+}
 .Academia-Drive{
     margin-top: 5%;
     margin-left: 5%;
@@ -462,7 +478,7 @@ main-block1{
 }
 .grid-system{
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 50% 50%;
     height: 72vh;
     
     overflow-y: scroll;
