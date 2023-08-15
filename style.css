@@ -85,7 +85,7 @@ main{
 }
 
 .increaseGrid{
-    grid-template-columns:4vw  46vw 46vw;
+    grid-template-columns:4vw  48vw 48vw;
 }
 
 /* MAIN */
