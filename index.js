@@ -161,7 +161,7 @@ function moveItemsLeft()
   }
   var test=document.getElementsByClassName('asideBhai')[0].classList.toggle('reduce30');
   document.getElementsByClassName('MenuSearch')[0].classList.toggle('none');
-  console.log(test);
+  document.getElementsByClassName('main')[0].classList.toggle('increaseGrid')
 }
 // For Chart.js library
 const ctx = document.getElementById('myChart');
