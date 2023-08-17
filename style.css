@@ -774,3 +774,11 @@ table tr td{
 .MenuSearch{
     box-shadow: none;
 }
+
+/* Media Queries */
+@media only screen and (max-width:500px){
+
+body{
+    font-size: 10px
+};
+}
